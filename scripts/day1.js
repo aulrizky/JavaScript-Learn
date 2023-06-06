@@ -117,22 +117,34 @@
 //     }
 // }
 
-function searchNames(){
-    var data = [["test1","test2","test3"],
-                ["pak","bu","dek"],
-                ["kick","shit","crak"]];
-    for (i = 0; i < data.length; i+=1){
-        // console.log(data[i])
-        for (j = 0 ; j < data[i].length;j++){
-            // console.log(data[i][j])
-            for(k = 0; k < data[i][j].length; k++){
-                var hurufKapital = data[i][j].charAt(0).toUpperCase() + data[i][j].slice(1)
+
+// function searchNames(){
+//     var data = [["test1","test2","test3"],
+//                 ["pak","bu","dek"],
+//                 ["kick","shit","crak"]];
+//     for (i = 0; i < data.length; i+=1){
+//         // console.log(data[i])
+//         for (j = 0 ; j < data[i].length;j++){
+//             // console.log(data[i][j])
+//             for(k = 0; k < data[i][j].length; k++){
+//                 var hurufKapital = data[i][j].charAt(0).toUpperCase() + data[i][j].slice(1)
             
-            }
-            console.log(hurufKapital)
-        }
+//             }
+//             console.log(hurufKapital)
+//         }
+//     }
+// }
+// searchNames();
+// for (i = 3; i <= 20 ; i +=3){
+//     console.log(i);
+// }
+
+for (i = 0; i <= 20; i += 1){
+    if (i % 2 == 0){
+        console.log("genap");
+    }
+    else {
+        console.log(i);
     }
 }
-searchNames();
-
 // for of

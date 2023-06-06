@@ -1,0 +1,10 @@
+{
+    "name": "'John'",
+    "className": "'Warrior'",
+    "jobName": "Juggernauts",
+    "exp": 9000,
+    "location": {
+        "server_id": 30,
+        "server_name": "Azzule"
+    }
+}
